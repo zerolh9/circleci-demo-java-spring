@@ -26,8 +26,8 @@ jobs:
           key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
       
       - run: mvn package
-      - run: ls target/surefire-reports
-      - run: cat target/surefire-reports
+      - run: cat TEST-com.circleci.demojavaspring.DemoJavaSpringApplicationTests.xml
+      - run: cat com.circleci.demojavaspring.DemoJavaSpringApplicationTests.txt
       
       - store_test_results:
           path: target/surefire-reports
