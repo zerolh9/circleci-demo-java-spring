@@ -15,11 +15,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class DemoJavaSpringApplicationTests {
 	@Test
 	public void a0() {
-		assertTrue(true);
+		assertTrue(false);
 	}
 	@Test
 	public void a1() {
-		assertTrue(true);
+		assertTrue(false);
 	}
 	@Test
 	public void a2() {
