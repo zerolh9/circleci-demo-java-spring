@@ -40013,7 +40013,7 @@ public class DemoJavaSpringApplicationTests {
 	public void a9999() {
 	throwException(100);
 	}
-	private void throwException(int i) throw Exception{
+	private void throwException(int i) throws Exception{
 		if (i < 0) {
 			throw new Exception("=========================================");
 		} else {
