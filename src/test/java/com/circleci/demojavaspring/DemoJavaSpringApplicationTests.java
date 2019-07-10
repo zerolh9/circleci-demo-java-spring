@@ -15,7 +15,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class DemoJavaSpringApplicationTests {
 
 	@Test
-	@Repeat( times = 5 )
 	public void contextLoads() {
 		assertTrue(false);
 	}
