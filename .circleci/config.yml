@@ -28,9 +28,10 @@ jobs:
       - run: mvn package
       - run: cat target/surefire-reports/TEST-com.circleci.demojavaspring.DemoJavaSpringApplicationTests.xml
       - run: cat target/surefire-reports/com.circleci.demojavaspring.DemoJavaSpringApplicationTests.txt
+      - run: ls -R
       
       - store_test_results:
-          path: targett/surefire-reports
+          path: target/surefire-reports
           
       - store_artifacts:
           path: target/demo-java-spring-0.0.1-SNAPSHOT.jar
