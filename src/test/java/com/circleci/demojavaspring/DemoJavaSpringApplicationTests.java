@@ -16,5 +16,10 @@ public class DemoJavaSpringApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	
+	@Test
+	public void contextLoads1() {
+		assertTrue(false);
+	}
 
 }
